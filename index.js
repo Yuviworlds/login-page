@@ -1,11 +1,11 @@
 const express=require("express")
-const app=express()
-const path=req ("[path")
+
+const path=req ("[path]")
 const hbs=requ("hbs")
 const collection=require("./mongodb")
 
 const tempelatepath=path.join(__dirname, '../tempelates')
-
+const app=express()
 app.use(express.json())
 app.set("view engin", "hbs")
 app.set("view", tempelatepath)
